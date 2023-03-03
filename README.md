@@ -4,6 +4,9 @@ This code is for the paper: C. Zhou, B. Huang and P. Fränti, "Representation Le
 ## Abstract
 Abstract—Indoor motion planning challenges researchers because of the high density and unpredictability of moving obstacles. Classical algorithms work well in the case of static obstacles but suffer from collisions in the case of dense and dynamic obstacles. Recent reinforcement learning algorithms provide safe solutions for multiagent robotic motion planning system. However, these algorithms face challenges in convergence: slow convergence speed and suboptimal converged result. Inspired by reinforcement learning and representation learning, we introduced the ALN-DSAC: a hybrid motion planning algorithm where attention-based LSTM and novel data replay combine with discrete soft actor critic. First, we implemented discrete soft actor critic algorithm which is the soft actor critic in the setting of discrete action space. Second, we optimized existing distance-based LSTM encoding by attention-based encoding to improve the data quality. Third, we introduced novel data replay method by combining the online learning and offline learning to improve the efficacy of data replay. The convergence of our ALN-DSAC outperforms that of trainable state-of-arts. Evaluations demonstrate that our algorithm achieves near 100% success with less time to reach the goal in motion planning tasks when comparing to the state-of-arts. Test code is available on https://github.com/CHUENGMINCHOU/ALN-DSAC.
 
+![image](https://user-images.githubusercontent.com/22268151/222774256-98076d26-0b3c-44c7-b052-e4a59d3cf870.png)
+
+
 ## Dependencies
 1. [Python-RVO2](https://github.com/sybrenstuvel/Python-RVO2) library
 2. Install the dependencies
