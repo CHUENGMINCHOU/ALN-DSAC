@@ -6,6 +6,7 @@ Abstract—Indoor motion planning challenges researchers because of the high den
 
 ## Dependencies
 1. [Python-RVO2](https://github.com/sybrenstuvel/Python-RVO2) library
+2. Install the dependencies
 ```
 pip3 install -e .
 ```
