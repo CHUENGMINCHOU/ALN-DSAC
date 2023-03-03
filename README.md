@@ -22,7 +22,7 @@ python3 test.py --policy sa_sac_rl --output_dir ENVS/data/output --phase test
 python3 test.py --policy sa_sac_rl --output_dir ENVS/data/output --phase test --visualize --test_case 0
 ```
 
-## Train curves
+## Training curves
 ![image](https://user-images.githubusercontent.com/22268151/222767985-98e9c99d-70b9-4206-94aa-2374504aa89d.png)
 
 ## Motion planning process
